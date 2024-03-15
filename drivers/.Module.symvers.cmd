@@ -1,0 +1,1 @@
+cmd_/home/shouyu/4.2/designProblem/drivers/Module.symvers := sed 's/\.ko$$/\.o/' /home/shouyu/4.2/designProblem/drivers/modules.order | scripts/mod/modpost -m -a  -o /home/shouyu/4.2/designProblem/drivers/Module.symvers -e -i Module.symvers   -T -

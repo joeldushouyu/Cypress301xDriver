@@ -1,0 +1,1 @@
+cmd_/home/shouyu/4.2/designProblem/drivers/modules.order := {   echo /home/shouyu/4.2/designProblem/drivers/hello.ko;   echo /home/shouyu/4.2/designProblem/drivers/usb-skeleton.ko; :; } | awk '!x[$$0]++' - > /home/shouyu/4.2/designProblem/drivers/modules.order

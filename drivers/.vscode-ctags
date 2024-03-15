@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+KVERSION	Makefile	/^KVERSION = $(shell uname -r)$/;"	m
+all	Makefile	/^all: modules emoticon_demo jiffies_demo devdriver_demo$/;"	t
+buf	devdriver_demo.c	/^char buf[80] = "sad";$/;"	v	typeref:typename:char[80]
+buf	emoticon_demo.c	/^char buf[80] = "sad";$/;"	v	typeref:typename:char[80]
+buf	jiffies_demo.c	/^char buf[4] = "sad";$/;"	v	typeref:typename:char[4]
+clean	Makefile	/^clean:$/;"	t
+devdriver_demo	Makefile	/^devdriver_demo: devdriver_demo.c$/;"	t
+devdriver_exit	devdriver.c	/^void devdriver_exit(void) {$/;"	f	typeref:typename:void
+devdriver_fops	devdriver.c	/^struct file_operations devdriver_fops = {$/;"	v	typeref:struct:file_operations
+devdriver_init	devdriver.c	/^int devdriver_init(void) {$/;"	f	typeref:typename:int
+devdriver_major	devdriver.c	/^int devdriver_major = 63;$/;"	v	typeref:typename:int
+devdriver_open	devdriver.c	/^int devdriver_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+devdriver_release	devdriver.c	/^int devdriver_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+devdriver_write	devdriver.c	/^ssize_t devdriver_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+emoticon_demo	Makefile	/^emoticon_demo: emoticon_demo.c$/;"	t
+emoticon_exit	emoticon.c	/^void emoticon_exit(void) {$/;"	f	typeref:typename:void
+emoticon_fops	emoticon.c	/^struct file_operations emoticon_fops = {$/;"	v	typeref:struct:file_operations
+emoticon_init	emoticon.c	/^int emoticon_init(void) {$/;"	f	typeref:typename:int
+emoticon_major	emoticon.c	/^int emoticon_major = 61;$/;"	v	typeref:typename:int
+emoticon_open	emoticon.c	/^int emoticon_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+emoticon_read	emoticon.c	/^ssize_t emoticon_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+emoticon_release	emoticon.c	/^int emoticon_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+emoticon_write	emoticon.c	/^ssize_t emoticon_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+hello_exit	hello.c	/^static void hello_exit(void) {$/;"	f	typeref:typename:void	file:
+hello_init	hello.c	/^static int hello_init(void) {$/;"	f	typeref:typename:int	file:
+jiffies_exit	jiffies.c	/^void jiffies_exit(void) {$/;"	f	typeref:typename:void
+jiffies_fops	jiffies.c	/^struct file_operations jiffies_fops = {$/;"	v	typeref:struct:file_operations
+jiffies_init	jiffies.c	/^int jiffies_init(void) {$/;"	f	typeref:typename:int
+jiffies_major	jiffies.c	/^int jiffies_major = 60;$/;"	v	typeref:typename:int
+jiffies_open	jiffies.c	/^int jiffies_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+jiffies_read	jiffies.c	/^ssize_t jiffies_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+jiffies_release	jiffies.c	/^int jiffies_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_exit	klog.c	/^void klog_exit(void) {$/;"	f	typeref:typename:void
+klog_fops	klog.c	/^struct file_operations klog_fops = {$/;"	v	typeref:struct:file_operations
+klog_init	klog.c	/^int klog_init(void) {$/;"	f	typeref:typename:int
+klog_major	klog.c	/^int klog_major = 62;$/;"	v	typeref:typename:int
+klog_open	klog.c	/^int klog_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_release	klog.c	/^int klog_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_write	klog.c	/^ssize_t klog_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+main	devdriver_demo.c	/^int main()$/;"	f	typeref:typename:int
+main	emoticon_demo.c	/^int main()$/;"	f	typeref:typename:int
+main	jiffies_demo.c	/^int main()$/;"	f	typeref:typename:int
+memory_buffer	memory.c	/^char *memory_buffer;$/;"	v	typeref:typename:char *
+memory_exit	memory.c	/^void memory_exit(void) {$/;"	f	typeref:typename:void
+memory_fops	memory.c	/^struct file_operations memory_fops = {$/;"	v	typeref:struct:file_operations
+memory_init	memory.c	/^int memory_init(void) {$/;"	f	typeref:typename:int
+memory_major	memory.c	/^int memory_major = 60;$/;"	v	typeref:typename:int
+memory_open	memory.c	/^int memory_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+memory_read	memory.c	/^ssize_t memory_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+memory_release	memory.c	/^int memory_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+memory_write	memory.c	/^ssize_t memory_write( struct file *filp, const char *buf,$/;"	f	typeref:typename:ssize_t
+modules	Makefile	/^modules:$/;"	t
+obj-m	Makefile	/^obj-m = hello.o memory.o devdriver.o emoticon.o jiffies.o klog.o $/;"	m

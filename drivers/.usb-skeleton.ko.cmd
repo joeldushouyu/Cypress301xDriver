@@ -1,0 +1,1 @@
+cmd_/home/shouyu/4.2/designProblem/drivers/usb-skeleton.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/shouyu/4.2/designProblem/drivers/usb-skeleton.ko /home/shouyu/4.2/designProblem/drivers/usb-skeleton.o /home/shouyu/4.2/designProblem/drivers/usb-skeleton.mod.o;  true

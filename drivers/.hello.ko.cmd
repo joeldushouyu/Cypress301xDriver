@@ -1,0 +1,1 @@
+cmd_/home/shouyu/4.2/designProblem/drivers/hello.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/shouyu/4.2/designProblem/drivers/hello.ko /home/shouyu/4.2/designProblem/drivers/hello.o /home/shouyu/4.2/designProblem/drivers/hello.mod.o;  true
