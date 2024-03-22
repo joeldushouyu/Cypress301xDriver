@@ -1,0 +1,516 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(A_OBJECT)	firmware/SlaveFifoSync/makefile	/^$(A_OBJECT) : %.o : %.S$/;"	t
+$(C_OBJECT)	firmware/SlaveFifoSync/makefile	/^$(C_OBJECT) : %.o : %.c cyfxslfifosync.h cyfxgpif_syncsf.h$/;"	t
+$(MODULE).$(EXEEXT)	firmware/SlaveFifoSync/makefile	/^$(MODULE).$(EXEEXT): $(A_OBJECT) $(C_OBJECT)$/;"	t
+%.o	firmware/SlaveFifoSync/Debug/subdir.mk	/^%.o: ..\/%.S$/;"	t
+%.o	firmware/SlaveFifoSync/Debug/subdir.mk	/^%.o: ..\/%.c$/;"	t
+%.o	firmware/SlaveFifoSync/Release/subdir.mk	/^%.o: ..\/%.S$/;"	t
+%.o	firmware/SlaveFifoSync/Release/subdir.mk	/^%.o: ..\/%.c$/;"	t
+%.o	firmware/SlaveFifoSync/makefile	/^$(A_OBJECT) : %.o : %.S$/;"	t
+%.o	firmware/SlaveFifoSync/makefile	/^$(C_OBJECT) : %.o : %.c cyfxslfifosync.h cyfxgpif_syncsf.h$/;"	t
+ALPHA_RESET	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define ALPHA_RESET /;"	d
+ALPHA_RESET	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define ALPHA_RESET /;"	d
+ASM_DEPS	firmware/SlaveFifoSync/Debug/sources.mk	/^ASM_DEPS := $/;"	m
+ASM_DEPS	firmware/SlaveFifoSync/Release/sources.mk	/^ASM_DEPS := $/;"	m
+ASM_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^ASM_SRCS := $/;"	m
+ASM_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^ASM_SRCS := $/;"	m
+A_OBJECT	firmware/SlaveFifoSync/makefile	/^A_OBJECT=$(SOURCE_ASM:%.S=.\/%.o)$/;"	m
+BPP	drivers/udlfb.h	/^#define BPP /;"	d
+BULK_SIZE	drivers/udlfb.h	/^#define BULK_SIZE /;"	d
+BURST_LEN	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define BURST_LEN /;"	d
+COMBINE_HI_4LO	drivers/edid.h	/^#define COMBINE_HI_4LO(/;"	d
+COMBINE_HI_8LO	drivers/edid.h	/^#define COMBINE_HI_8LO(/;"	d
+CY_FX_CONSUMER_PPORT_SOCKET	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_CONSUMER_PPORT_SOCKET /;"	d
+CY_FX_CONSUMER_USB_SOCKET	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_CONSUMER_USB_SOCKET /;"	d
+CY_FX_EP_CONSUMER	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_EP_CONSUMER /;"	d
+CY_FX_EP_PRODUCER	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_EP_PRODUCER /;"	d
+CY_FX_PRODUCER_PPORT_SOCKET	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_PRODUCER_PPORT_SOCKET /;"	d
+CY_FX_PRODUCER_USB_SOCKET	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_PRODUCER_USB_SOCKET /;"	d
+CY_FX_SLFIFO_DMA_BUF_COUNT	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_DMA_BUF_COUNT /;"	d
+CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U /;"	d
+CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_DMA_BUF_COUNT_U_2_P /;"	d
+CY_FX_SLFIFO_DMA_RX_SIZE	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_DMA_RX_SIZE /;"	d
+CY_FX_SLFIFO_DMA_TX_SIZE	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_DMA_TX_SIZE /;"	d
+CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_GPIF_16_32BIT_CONF_SELECT /;"	d
+CY_FX_SLFIFO_THREAD_PRIORITY	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_THREAD_PRIORITY /;"	d
+CY_FX_SLFIFO_THREAD_STACK	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define CY_FX_SLFIFO_THREAD_STACK /;"	d
+CY_NUMBER_OF_STATES	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define CY_NUMBER_OF_STATES /;"	d
+CY_NUMBER_OF_STATES	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define CY_NUMBER_OF_STATES /;"	d
+CY_U3P_BUFFER_ALLOC_TIMEOUT	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_BUFFER_ALLOC_TIMEOUT /;"	d	file:
+CY_U3P_BUFFER_HEAP_BASE	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_BUFFER_HEAP_BASE /;"	d	file:
+CY_U3P_BUFFER_HEAP_SIZE	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_BUFFER_HEAP_SIZE /;"	d	file:
+CY_U3P_MAX	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_MAX(/;"	d	file:
+CY_U3P_MEM_ALLOC_TIMEOUT	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_MEM_ALLOC_TIMEOUT /;"	d	file:
+CY_U3P_MEM_HEAP_BASE	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_MEM_HEAP_BASE /;"	d	file:
+CY_U3P_MEM_HEAP_SIZE	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_MEM_HEAP_SIZE /;"	d	file:
+CY_U3P_MIN	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_MIN(/;"	d	file:
+CY_U3P_SYS_MEM_TOP	firmware/SlaveFifoSync/cyfxtx.c	/^#define CY_U3P_SYS_MEM_TOP /;"	d	file:
+C_DEPS	firmware/SlaveFifoSync/Debug/sources.mk	/^C_DEPS := $/;"	m
+C_DEPS	firmware/SlaveFifoSync/Release/sources.mk	/^C_DEPS := $/;"	m
+C_OBJECT	firmware/SlaveFifoSync/makefile	/^C_OBJECT=$(SOURCE:%.c=.\/%.o)$/;"	m
+C_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^C_SRCS := $/;"	m
+C_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^C_SRCS := $/;"	m
+CyFxAppErrorHandler	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxAppErrorHandler ($/;"	f	typeref:typename:void
+CyFxApplicationDefine	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxApplicationDefine ($/;"	f	typeref:typename:void
+CyFxApplnLPMRqtCB	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxApplnLPMRqtCB ($/;"	f	typeref:typename:CyBool_t
+CyFxGpifConfig	firmware/SlaveFifoSync/cyfxgpif2config.h	/^const CyU3PGpifConfig_t CyFxGpifConfig  = {$/;"	v	typeref:typename:const CyU3PGpifConfig_t
+CyFxGpifConfig	firmware/my_slave.cydsn/cyfxgpif2config.h	/^const CyU3PGpifConfig_t CyFxGpifConfig  = {$/;"	v	typeref:typename:const CyU3PGpifConfig_t
+CyFxGpifRegValue	firmware/SlaveFifoSync/cyfxgpif2config.h	/^uint32_t CyFxGpifRegValue[]  = {$/;"	v	typeref:typename:uint32_t[]
+CyFxGpifRegValue	firmware/my_slave.cydsn/cyfxgpif2config.h	/^uint32_t CyFxGpifRegValue[]  = {$/;"	v	typeref:typename:uint32_t[]
+CyFxGpifTransition	firmware/SlaveFifoSync/cyfxgpif2config.h	/^uint16_t CyFxGpifTransition[]  = {$/;"	v	typeref:typename:uint16_t[]
+CyFxGpifTransition	firmware/my_slave.cydsn/cyfxgpif2config.h	/^uint16_t CyFxGpifTransition[]  = {$/;"	v	typeref:typename:uint16_t[]
+CyFxGpifWavedata	firmware/SlaveFifoSync/cyfxgpif2config.h	/^CyU3PGpifWaveData CyFxGpifWavedata[]  = {$/;"	v	typeref:typename:CyU3PGpifWaveData[]
+CyFxGpifWavedata	firmware/my_slave.cydsn/cyfxgpif2config.h	/^CyU3PGpifWaveData CyFxGpifWavedata[]  = {$/;"	v	typeref:typename:CyU3PGpifWaveData[]
+CyFxGpifWavedataPosition	firmware/SlaveFifoSync/cyfxgpif2config.h	/^uint8_t CyFxGpifWavedataPosition[]  = {$/;"	v	typeref:typename:uint8_t[]
+CyFxGpifWavedataPosition	firmware/my_slave.cydsn/cyfxgpif2config.h	/^uint8_t CyFxGpifWavedataPosition[]  = {$/;"	v	typeref:typename:uint8_t[]
+CyFxSlFifoApplnDebugInit	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnDebugInit (void)$/;"	f	typeref:typename:void
+CyFxSlFifoApplnInit	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnInit (void)$/;"	f	typeref:typename:void
+CyFxSlFifoApplnStart	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnStart ($/;"	f	typeref:typename:void
+CyFxSlFifoApplnStop	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnStop ($/;"	f	typeref:typename:void
+CyFxSlFifoApplnUSBEventCB	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnUSBEventCB ($/;"	f	typeref:typename:void
+CyFxSlFifoApplnUSBSetupCB	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoApplnUSBSetupCB ($/;"	f	typeref:typename:CyBool_t
+CyFxSlFifoPtoUDmaCallback	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoPtoUDmaCallback ($/;"	f	typeref:typename:void
+CyFxSlFifoUtoPDmaCallback	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyFxSlFifoUtoPDmaCallback ($/;"	f	typeref:typename:void
+CyFxUSB20DeviceDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSB20DeviceDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSB30DeviceDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSB30DeviceDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBBOSDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBBOSDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBDeviceQualDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBDeviceQualDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBFSConfigDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBFSConfigDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBHSConfigDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBHSConfigDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBManufactureDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBManufactureDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBProductDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBProductDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBSSConfigDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBSSConfigDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUSBStringLangIDDscr	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUSBStringLangIDDscr[] __attribute__ ((aligned (32))) =$/;"	v	typeref:typename:const uint8_t[]
+CyFxUsbDscrAlignBuffer	firmware/SlaveFifoSync/cyfxslfifousbdscr.c	/^const uint8_t CyFxUsbDscrAlignBuffer[32] __attribute__ ((aligned (32)));$/;"	v	typeref:typename:const uint8_t[32]
+CyU3PAbortHandler	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PAbortHandler ($/;"	f	typeref:typename:void
+CyU3PDmaBufMgrSetStatus	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufMgrSetStatus ($/;"	f	typeref:typename:void	file:
+CyU3PDmaBufferAlloc	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufferAlloc ($/;"	f	typeref:typename:void *
+CyU3PDmaBufferDeInit	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufferDeInit ($/;"	f	typeref:typename:void
+CyU3PDmaBufferFree	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufferFree ($/;"	f	typeref:typename:int
+CyU3PDmaBufferInit	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufferInit ($/;"	f	typeref:typename:void
+CyU3PFreeHeaps	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PFreeHeaps ($/;"	f	typeref:typename:void
+CyU3PMemAlloc	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemAlloc ($/;"	f	typeref:typename:void *
+CyU3PMemCmp	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemCmp ($/;"	f	typeref:typename:int32_t
+CyU3PMemCopy	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemCopy ($/;"	f	typeref:typename:void
+CyU3PMemFree	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemFree ($/;"	f	typeref:typename:void
+CyU3PMemInit	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemInit ($/;"	f	typeref:typename:void
+CyU3PMemSet	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PMemSet ($/;"	f	typeref:typename:void
+CyU3PPrefetchHandler	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PPrefetchHandler ($/;"	f	typeref:typename:void
+CyU3PUndefinedHandler	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PUndefinedHandler ($/;"	f	typeref:typename:void
+DATA_SIZE	WriteToUSB.c	/^#define DATA_SIZE /;"	d	file:
+DESCRIPTOR_DATA	drivers/edid.h	/^#define DESCRIPTOR_DATA	/;"	d
+DETAILED_TIMING_DESCRIPTIONS_START	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTIONS_START	/;"	d
+DETAILED_TIMING_DESCRIPTION_1	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTION_1	/;"	d
+DETAILED_TIMING_DESCRIPTION_2	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTION_2	/;"	d
+DETAILED_TIMING_DESCRIPTION_3	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTION_3	/;"	d
+DETAILED_TIMING_DESCRIPTION_4	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTION_4	/;"	d
+DETAILED_TIMING_DESCRIPTION_SIZE	drivers/edid.h	/^#define DETAILED_TIMING_DESCRIPTION_SIZE	/;"	d
+DLFB_IOCTL_REPORT_DAMAGE	drivers/udlfb.h	/^#define DLFB_IOCTL_REPORT_DAMAGE /;"	d
+DLFB_IOCTL_RETURN_EDID	drivers/udlfb.h	/^#define DLFB_IOCTL_RETURN_EDID	/;"	d
+DL_ALIGN_DOWN	drivers/udlfb.h	/^#define DL_ALIGN_DOWN(/;"	d
+DL_ALIGN_UP	drivers/udlfb.h	/^#define DL_ALIGN_UP(/;"	d
+DL_DEFIO_WRITE_DELAY	drivers/udlfb.h	/^#define DL_DEFIO_WRITE_DELAY /;"	d
+DL_DEFIO_WRITE_DISABLE	drivers/udlfb.h	/^#define DL_DEFIO_WRITE_DISABLE /;"	d
+DMA_BUF_SIZE	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define DMA_BUF_SIZE	/;"	d
+DPMS_ACTIVE_OFF	drivers/edid.h	/^#define DPMS_ACTIVE_OFF	/;"	d
+DPMS_FLAGS	drivers/edid.h	/^#define DPMS_FLAGS	/;"	d
+DPMS_STANDBY	drivers/edid.h	/^#define DPMS_STANDBY	/;"	d
+DPMS_SUSPEND	drivers/edid.h	/^#define DPMS_SUSPEND	/;"	d
+DSS_STATE	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define DSS_STATE /;"	d
+DSS_STATE	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define DSS_STATE /;"	d
+EDID_HEADER	drivers/edid.h	/^#define EDID_HEADER	/;"	d
+EDID_HEADER_END	drivers/edid.h	/^#define EDID_HEADER_END	/;"	d
+EDID_LENGTH	drivers/edid.h	/^#define EDID_LENGTH	/;"	d
+EDID_STRUCT_DISPLAY	drivers/edid.h	/^#define EDID_STRUCT_DISPLAY /;"	d
+EDID_STRUCT_REVISION	drivers/edid.h	/^#define EDID_STRUCT_REVISION	/;"	d
+EDID_STRUCT_VERSION	drivers/edid.h	/^#define EDID_STRUCT_VERSION	/;"	d
+ELF_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^ELF_SRCS := $/;"	m
+ELF_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^ELF_SRCS := $/;"	m
+ENDPOINT_OUT	WriteToUSB.c	/^#define ENDPOINT_OUT /;"	d	file:
+ESTABLISHED_TIMING_1	drivers/edid.h	/^#define ESTABLISHED_TIMING_1	/;"	d
+ESTABLISHED_TIMING_2	drivers/edid.h	/^#define ESTABLISHED_TIMING_2	/;"	d
+EXECUTABLES	firmware/SlaveFifoSync/Debug/sources.mk	/^EXECUTABLES := $/;"	m
+EXECUTABLES	firmware/SlaveFifoSync/Release/sources.mk	/^EXECUTABLES := $/;"	m
+EXES	firmware/SlaveFifoSync/makefile	/^EXES = $(MODULE).$(EXEEXT)$/;"	m
+FLAGS	drivers/edid.h	/^#define FLAGS /;"	d
+FREE_URB_TIMEOUT	drivers/udlfb.h	/^#define FREE_URB_TIMEOUT /;"	d
+FX3FWROOT	firmware/SlaveFifoSync/makefile	/^FX3FWROOT=..\/..$/;"	m
+FX3PFWROOT	firmware/SlaveFifoSync/makefile	/^FX3PFWROOT=..\/..\/u3p_firmware$/;"	m
+GET_URB_TIMEOUT	drivers/udlfb.h	/^#define GET_URB_TIMEOUT	/;"	d
+GTF_SUPPORT	drivers/edid.h	/^#define GTF_SUPPORT	/;"	d
+HSYNC_POSITIVE	drivers/edid.h	/^#define HSYNC_POSITIVE /;"	d
+H_ACTIVE	drivers/edid.h	/^#define H_ACTIVE /;"	d
+H_ACTIVE_HI	drivers/edid.h	/^#define H_ACTIVE_HI /;"	d
+H_ACTIVE_LO	drivers/edid.h	/^#define H_ACTIVE_LO /;"	d
+H_BLANKING	drivers/edid.h	/^#define H_BLANKING /;"	d
+H_BLANKING_HI	drivers/edid.h	/^#define H_BLANKING_HI /;"	d
+H_BLANKING_LO	drivers/edid.h	/^#define H_BLANKING_LO /;"	d
+H_BORDER	drivers/edid.h	/^#define H_BORDER /;"	d
+H_MAX_RATE	drivers/edid.h	/^#define H_MAX_RATE /;"	d
+H_MIN_RATE	drivers/edid.h	/^#define H_MIN_RATE /;"	d
+H_SIZE	drivers/edid.h	/^#define H_SIZE /;"	d
+H_SIZE_HI	drivers/edid.h	/^#define H_SIZE_HI /;"	d
+H_SIZE_LO	drivers/edid.h	/^#define H_SIZE_LO /;"	d
+H_SYNC_OFFSET	drivers/edid.h	/^#define H_SYNC_OFFSET /;"	d
+H_SYNC_OFFSET_HI	drivers/edid.h	/^#define H_SYNC_OFFSET_HI /;"	d
+H_SYNC_OFFSET_LO	drivers/edid.h	/^#define H_SYNC_OFFSET_LO /;"	d
+H_SYNC_WIDTH	drivers/edid.h	/^#define H_SYNC_WIDTH /;"	d
+H_SYNC_WIDTH_HI	drivers/edid.h	/^#define H_SYNC_WIDTH_HI /;"	d
+H_SYNC_WIDTH_LO	drivers/edid.h	/^#define H_SYNC_WIDTH_LO /;"	d
+IDLE	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define IDLE /;"	d
+IDLE	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define IDLE /;"	d
+ID_MANUFACTURER_NAME	drivers/edid.h	/^#define ID_MANUFACTURER_NAME	/;"	d
+ID_MANUFACTURER_NAME_END	drivers/edid.h	/^#define ID_MANUFACTURER_NAME_END	/;"	d
+ID_MODEL	drivers/edid.h	/^#define ID_MODEL	/;"	d
+ID_SERIAL_NUMBER	drivers/edid.h	/^#define ID_SERIAL_NUMBER	/;"	d
+INCLUDE_VERMAGIC	drivers/hello.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+INCLUDE_VERMAGIC	drivers/usb-skeleton.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+INTERLACED	drivers/edid.h	/^#define INTERLACED /;"	d
+KVERSION	drivers/Makefile	/^KVERSION = $(shell uname -r)$/;"	m
+LIBS	firmware/SlaveFifoSync/Debug/objects.mk	/^LIBS :=$/;"	m
+LIBS	firmware/SlaveFifoSync/Release/objects.mk	/^LIBS :=$/;"	m
+LOWER_NIBBLE	drivers/edid.h	/^#define LOWER_NIBBLE(/;"	d
+MANUAL	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define MANUAL$/;"	d
+MANUFACTURERS_TIMINGS	drivers/edid.h	/^#define MANUFACTURERS_TIMINGS	/;"	d
+MANUFACTURE_WEEK	drivers/edid.h	/^#define MANUFACTURE_WEEK	/;"	d
+MANUFACTURE_YEAR	drivers/edid.h	/^#define MANUFACTURE_YEAR	/;"	d
+MAX_CMD_PIXELS	drivers/udlfb.h	/^#define MAX_CMD_PIXELS	/;"	d
+MAX_PIXEL_CLOCK	drivers/edid.h	/^#define MAX_PIXEL_CLOCK /;"	d
+MAX_TRANSFER	drivers/udlfb.h	/^#define MAX_TRANSFER /;"	d
+MAX_TRANSFER	drivers/usb-skeleton.c	/^#define MAX_TRANSFER	/;"	d	file:
+MAX_VENDOR_DESCRIPTOR_SIZE	drivers/udlfb.h	/^#define MAX_VENDOR_DESCRIPTOR_SIZE /;"	d
+MIN_RAW_CMD_BYTES	drivers/udlfb.h	/^#define MIN_RAW_CMD_BYTES	/;"	d
+MIN_RAW_PIX_BYTES	drivers/udlfb.h	/^#define MIN_RAW_PIX_BYTES	/;"	d
+MIN_RLE_CMD_BYTES	drivers/udlfb.h	/^#define MIN_RLE_CMD_BYTES	/;"	d
+MIN_RLE_PIX_BYTES	drivers/udlfb.h	/^#define MIN_RLE_PIX_BYTES	/;"	d
+MIN_RLX_CMD_BYTES	drivers/udlfb.h	/^#define MIN_RLX_CMD_BYTES	/;"	d
+MIN_RLX_PIX_BYTES	drivers/udlfb.h	/^#define MIN_RLX_PIX_BYTES /;"	d
+MODULE	firmware/SlaveFifoSync/makefile	/^MODULE = cyfxslfifosync$/;"	m
+NO_DETAILED_TIMING_DESCRIPTIONS	drivers/edid.h	/^#define NO_DETAILED_TIMING_DESCRIPTIONS	/;"	d
+NR_USB_REQUEST_CHANNEL	drivers/udlfb.h	/^#define NR_USB_REQUEST_CHANNEL /;"	d
+NR_USB_REQUEST_I2C_SUB_IO	drivers/udlfb.h	/^#define NR_USB_REQUEST_I2C_SUB_IO /;"	d
+OBJS	firmware/SlaveFifoSync/Debug/sources.mk	/^OBJS := $/;"	m
+OBJS	firmware/SlaveFifoSync/Release/sources.mk	/^OBJS := $/;"	m
+OBJ_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^OBJ_SRCS := $/;"	m
+OBJ_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^OBJ_SRCS := $/;"	m
+OUT_EP_NUM	drivers/udlfb.c	/^#define OUT_EP_NUM	/;"	d	file:
+O_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^O_SRCS := $/;"	m
+O_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^O_SRCS := $/;"	m
+PIXEL_CLOCK	drivers/edid.h	/^#define PIXEL_CLOCK	/;"	d
+PIXEL_CLOCK_HI	drivers/edid.h	/^#define PIXEL_CLOCK_HI /;"	d
+PIXEL_CLOCK_LO	drivers/edid.h	/^#define PIXEL_CLOCK_LO /;"	d
+PRODUCT_ID	WriteToUSB.c	/^#define PRODUCT_ID /;"	d	file:
+RAW_HEADER_BYTES	drivers/udlfb.h	/^#define RAW_HEADER_BYTES	/;"	d
+READ	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define READ /;"	d
+READ	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define READ /;"	d
+RESET	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define RESET /;"	d
+RESET	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define RESET /;"	d
+RLE_HEADER_BYTES	drivers/udlfb.h	/^#define RLE_HEADER_BYTES	/;"	d
+RLX_HEADER_BYTES	drivers/udlfb.h	/^#define RLX_HEADER_BYTES	/;"	d
+RM	firmware/SlaveFifoSync/Debug/makefile	/^RM := cs-rm -rf$/;"	m
+RM	firmware/SlaveFifoSync/Release/makefile	/^RM := cs-rm -rf$/;"	m
+SECONDARY_LIST	firmware/SlaveFifoSync/Debug/sources.mk	/^SECONDARY_LIST := $/;"	m
+SECONDARY_LIST	firmware/SlaveFifoSync/Release/sources.mk	/^SECONDARY_LIST := $/;"	m
+SECONDARY_SIZE	firmware/SlaveFifoSync/Debug/sources.mk	/^SECONDARY_SIZE := $/;"	m
+SECONDARY_SIZE	firmware/SlaveFifoSync/Release/sources.mk	/^SECONDARY_SIZE := $/;"	m
+SHORT_PKT	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define SHORT_PKT /;"	d
+SHORT_PKT	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define SHORT_PKT /;"	d
+STD_TIMING	drivers/edid.h	/^#define STD_TIMING /;"	d
+STD_TIMING_DESCRIPTIONS_START	drivers/edid.h	/^#define STD_TIMING_DESCRIPTIONS_START /;"	d
+STD_TIMING_DESCRIPTION_SIZE	drivers/edid.h	/^#define STD_TIMING_DESCRIPTION_SIZE /;"	d
+STREAM_IN_OUT	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define STREAM_IN_OUT$/;"	d
+SUBDIRS	firmware/SlaveFifoSync/Debug/sources.mk	/^SUBDIRS := \\$/;"	m
+SUBDIRS	firmware/SlaveFifoSync/Release/sources.mk	/^SUBDIRS := \\$/;"	m
+SYNC_SEPARATE	drivers/edid.h	/^#define SYNC_SEPARATE /;"	d
+SYNC_TYPE	drivers/edid.h	/^#define SYNC_TYPE /;"	d
+S_UPPER_DEPS	firmware/SlaveFifoSync/Debug/sources.mk	/^S_UPPER_DEPS := $/;"	m
+S_UPPER_DEPS	firmware/SlaveFifoSync/Release/sources.mk	/^S_UPPER_DEPS := $/;"	m
+S_UPPER_SRCS	firmware/SlaveFifoSync/Debug/sources.mk	/^S_UPPER_SRCS := $/;"	m
+S_UPPER_SRCS	firmware/SlaveFifoSync/Release/sources.mk	/^S_UPPER_SRCS := $/;"	m
+SlFifoAppThread_Entry	firmware/SlaveFifoSync/cyfxslfifosync.c	/^SlFifoAppThread_Entry ($/;"	f	typeref:typename:void
+SlaveFifoSync.elf	firmware/SlaveFifoSync/Debug/makefile	/^SlaveFifoSync.elf: $(OBJS) $(USER_OBJS)$/;"	t
+SlaveFifoSync.elf	firmware/SlaveFifoSync/Release/makefile	/^SlaveFifoSync.elf: $(OBJS) $(USER_OBJS)$/;"	t
+SlaveFifoSync.lst	firmware/SlaveFifoSync/Debug/makefile	/^SlaveFifoSync.lst: SlaveFifoSync.elf$/;"	t
+SlaveFifoSync.lst	firmware/SlaveFifoSync/Release/makefile	/^SlaveFifoSync.lst: SlaveFifoSync.elf$/;"	t
+SlaveFifoSync.siz	firmware/SlaveFifoSync/Debug/makefile	/^SlaveFifoSync.siz: SlaveFifoSync.elf$/;"	t
+SlaveFifoSync.siz	firmware/SlaveFifoSync/Release/makefile	/^SlaveFifoSync.siz: SlaveFifoSync.elf$/;"	t
+UDLFB_H	drivers/udlfb.h	/^#define UDLFB_H$/;"	d
+UPPER_NIBBLE	drivers/edid.h	/^#define UPPER_NIBBLE(/;"	d
+USB_SKEL_MINOR_BASE	drivers/usb-skeleton.c	/^#define USB_SKEL_MINOR_BASE	/;"	d	file:
+USB_SKEL_PRODUCT_ID	drivers/usb-skeleton.c	/^#define USB_SKEL_PRODUCT_ID	/;"	d	file:
+USB_SKEL_VENDOR_ID	drivers/usb-skeleton.c	/^#define USB_SKEL_VENDOR_ID	/;"	d	file:
+USER_OBJS	firmware/SlaveFifoSync/Debug/objects.mk	/^USER_OBJS :=$/;"	m
+USER_OBJS	firmware/SlaveFifoSync/Release/objects.mk	/^USER_OBJS :=$/;"	m
+VENDOR_ID	WriteToUSB.c	/^#define VENDOR_ID /;"	d	file:
+VSYNC_POSITIVE	drivers/edid.h	/^#define VSYNC_POSITIVE /;"	d
+V_ACTIVE	drivers/edid.h	/^#define V_ACTIVE /;"	d
+V_ACTIVE_HI	drivers/edid.h	/^#define V_ACTIVE_HI /;"	d
+V_ACTIVE_LO	drivers/edid.h	/^#define V_ACTIVE_LO /;"	d
+V_BLANKING	drivers/edid.h	/^#define V_BLANKING /;"	d
+V_BLANKING_HI	drivers/edid.h	/^#define V_BLANKING_HI /;"	d
+V_BLANKING_LO	drivers/edid.h	/^#define V_BLANKING_LO /;"	d
+V_BORDER	drivers/edid.h	/^#define V_BORDER /;"	d
+V_MAX_RATE	drivers/edid.h	/^#define V_MAX_RATE /;"	d
+V_MIN_RATE	drivers/edid.h	/^#define V_MIN_RATE /;"	d
+V_SIZE	drivers/edid.h	/^#define V_SIZE /;"	d
+V_SIZE_HI	drivers/edid.h	/^#define V_SIZE_HI /;"	d
+V_SIZE_LO	drivers/edid.h	/^#define V_SIZE_LO /;"	d
+V_SYNC_OFFSET	drivers/edid.h	/^#define V_SYNC_OFFSET /;"	d
+V_SYNC_OFFSET_HI	drivers/edid.h	/^#define V_SYNC_OFFSET_HI /;"	d
+V_SYNC_OFFSET_LO	drivers/edid.h	/^#define V_SYNC_OFFSET_LO /;"	d
+V_SYNC_WIDTH	drivers/edid.h	/^#define V_SYNC_WIDTH /;"	d
+V_SYNC_WIDTH_HI	drivers/edid.h	/^#define V_SYNC_WIDTH_HI /;"	d
+V_SYNC_WIDTH_LO	drivers/edid.h	/^#define V_SYNC_WIDTH_LO /;"	d
+WRITE	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define WRITE /;"	d
+WRITE	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define WRITE /;"	d
+WRITES_IN_FLIGHT	drivers/udlfb.h	/^#define WRITES_IN_FLIGHT /;"	d
+WRITES_IN_FLIGHT	drivers/usb-skeleton.c	/^#define WRITES_IN_FLIGHT	/;"	d	file:
+ZLP	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define ZLP /;"	d
+ZLP	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define ZLP /;"	d
+_INCLUDED_CYFXSLFIFOASYNC_H_	firmware/SlaveFifoSync/cyfxslfifosync.h	/^#define _INCLUDED_CYFXSLFIFOASYNC_H_$/;"	d
+_INCLUDED__	firmware/SlaveFifoSync/cyfxgpif2config.h	/^#define _INCLUDED__$/;"	d
+_INCLUDED__	firmware/my_slave.cydsn/cyfxgpif2config.h	/^#define _INCLUDED__$/;"	d
+__EDID_H__	drivers/edid.h	/^#define __EDID_H__$/;"	d
+____versions	drivers/hello.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+____versions	drivers/usb-skeleton.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+all	drivers/Makefile	/^all: modules $/;"	t
+all	firmware/SlaveFifoSync/Debug/makefile	/^all: SlaveFifoSync.elf secondary-outputs$/;"	t
+all	firmware/SlaveFifoSync/Release/makefile	/^all: SlaveFifoSync.elf secondary-outputs$/;"	t
+all	firmware/SlaveFifoSync/makefile	/^all:compile$/;"	t
+available	drivers/udlfb.h	/^	int available;$/;"	m	struct:urb_list	typeref:typename:int
+backing_buffer	drivers/udlfb.h	/^	char *backing_buffer;$/;"	m	struct:dlfb_data	typeref:typename:char *
+base16	drivers/udlfb.h	/^	int base16;$/;"	m	struct:dlfb_data	typeref:typename:int
+base8	drivers/udlfb.h	/^	int base8;$/;"	m	struct:dlfb_data	typeref:typename:int
+blank_mode	drivers/udlfb.h	/^	int blank_mode; \/*one of FB_BLANK_ *\/$/;"	m	struct:dlfb_data	typeref:typename:int
+buf	drivers/devdriver_demo.c	/^char buf[80] = "sad";$/;"	v	typeref:typename:char[80]
+buf	drivers/emoticon_demo.c	/^char buf[80] = "sad";$/;"	v	typeref:typename:char[80]
+buf	drivers/jiffies_demo.c	/^char buf[4] = "sad";$/;"	v	typeref:typename:char[4]
+bulk_in_buffer	drivers/usb-skeleton.c	/^	unsigned char           *bulk_in_buffer;	\/* the buffer to receive data *\/$/;"	m	struct:usb_skel	typeref:typename:unsigned char *	file:
+bulk_in_copied	drivers/usb-skeleton.c	/^	size_t			bulk_in_copied;		\/* already copied to user space *\/$/;"	m	struct:usb_skel	typeref:typename:size_t	file:
+bulk_in_endpointAddr	drivers/usb-skeleton.c	/^	__u8			bulk_in_endpointAddr;	\/* the address of the bulk in endpoint *\/$/;"	m	struct:usb_skel	typeref:typename:__u8	file:
+bulk_in_filled	drivers/usb-skeleton.c	/^	size_t			bulk_in_filled;		\/* number of bytes in the buffer *\/$/;"	m	struct:usb_skel	typeref:typename:size_t	file:
+bulk_in_size	drivers/usb-skeleton.c	/^	size_t			bulk_in_size;		\/* the size of the receive buffer *\/$/;"	m	struct:usb_skel	typeref:typename:size_t	file:
+bulk_in_urb	drivers/usb-skeleton.c	/^	struct urb		*bulk_in_urb;		\/* the urb to read data with *\/$/;"	m	struct:usb_skel	typeref:struct:urb *	file:
+bulk_in_wait	drivers/usb-skeleton.c	/^	wait_queue_head_t	bulk_in_wait;		\/* to wait for an ongoing read *\/$/;"	m	struct:usb_skel	typeref:typename:wait_queue_head_t	file:
+bulk_out_endpointAddr	drivers/usb-skeleton.c	/^	__u8			bulk_out_endpointAddr;	\/* the address of the bulk out endpoint *\/$/;"	m	struct:usb_skel	typeref:typename:__u8	file:
+burstLength	firmware/SlaveFifoSync/cyfxslfifosync.c	/^uint8_t burstLength = 0;$/;"	v	typeref:typename:uint8_t
+bytes_identical	drivers/udlfb.h	/^	atomic_t bytes_identical; \/* saved effort with backbuffer comparison *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+bytes_rendered	drivers/udlfb.h	/^	atomic_t bytes_rendered; \/* raw pixel-bytes driver asked to render *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+bytes_sent	drivers/udlfb.h	/^	atomic_t bytes_sent; \/* to usb, after compression including overhead *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+clean	drivers/Makefile	/^clean:$/;"	t
+clean	firmware/SlaveFifoSync/Debug/makefile	/^clean:$/;"	t
+clean	firmware/SlaveFifoSync/Release/makefile	/^clean:$/;"	t
+clean	firmware/SlaveFifoSync/makefile	/^clean:$/;"	t
+compile	firmware/SlaveFifoSync/makefile	/^compile: $(C_OBJECT) $(A_OBJECT) $(EXES)$/;"	t
+console	drivers/udlfb.c	/^static bool console = true; \/* Allow fbcon to open framebuffer *\/$/;"	v	typeref:typename:bool	file:
+count	drivers/udlfb.h	/^	int count;$/;"	m	struct:urb_list	typeref:typename:int
+cpu_kcycles_used	drivers/udlfb.h	/^	atomic_t cpu_kcycles_used; \/* transpired during pixel processing *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+current_mode	drivers/udlfb.h	/^	struct fb_var_screeninfo current_mode;$/;"	m	struct:dlfb_data	typeref:struct:fb_var_screeninfo
+damage_lock	drivers/udlfb.h	/^	spinlock_t damage_lock;$/;"	m	struct:dlfb_data	typeref:typename:spinlock_t
+damage_work	drivers/udlfb.h	/^	struct work_struct damage_work;$/;"	m	struct:dlfb_data	typeref:struct:work_struct
+damage_x	drivers/udlfb.h	/^	int damage_x;$/;"	m	struct:dlfb_data	typeref:typename:int
+damage_x2	drivers/udlfb.h	/^	int damage_x2;$/;"	m	struct:dlfb_data	typeref:typename:int
+damage_y	drivers/udlfb.h	/^	int damage_y;$/;"	m	struct:dlfb_data	typeref:typename:int
+damage_y2	drivers/udlfb.h	/^	int damage_y2;$/;"	m	struct:dlfb_data	typeref:typename:int
+deferred_free	drivers/udlfb.h	/^	struct list_head deferred_free;$/;"	m	struct:dlfb_data	typeref:struct:list_head
+devdriver_exit	drivers/devdriver.c	/^void devdriver_exit(void) {$/;"	f	typeref:typename:void
+devdriver_fops	drivers/devdriver.c	/^struct file_operations devdriver_fops = {$/;"	v	typeref:struct:file_operations
+devdriver_init	drivers/devdriver.c	/^int devdriver_init(void) {$/;"	f	typeref:typename:int
+devdriver_major	drivers/devdriver.c	/^int devdriver_major = 63;$/;"	v	typeref:typename:int
+devdriver_open	drivers/devdriver.c	/^int devdriver_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+devdriver_release	drivers/devdriver.c	/^int devdriver_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+devdriver_write	drivers/devdriver.c	/^ssize_t devdriver_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+disconnected	drivers/usb-skeleton.c	/^	unsigned long		disconnected:1;$/;"	m	struct:usb_skel	typeref:typename:unsigned long:1	file:
+dlfb	drivers/udlfb.h	/^	struct dlfb_data *dlfb;$/;"	m	struct:urb_node	typeref:struct:dlfb_data *
+dlfb_alloc_urb_list	drivers/udlfb.c	/^static int dlfb_alloc_urb_list(struct dlfb_data *dlfb, int count, size_t size)$/;"	f	typeref:typename:int	file:
+dlfb_blanking	drivers/udlfb.c	/^static char *dlfb_blanking(char *buf, int fb_blank)$/;"	f	typeref:typename:char *	file:
+dlfb_compress_hline	drivers/udlfb.c	/^static void dlfb_compress_hline($/;"	f	typeref:typename:void	file:
+dlfb_damage_work	drivers/udlfb.c	/^static void dlfb_damage_work(struct work_struct *w)$/;"	f	typeref:typename:void	file:
+dlfb_data	drivers/udlfb.h	/^struct dlfb_data {$/;"	s
+dlfb_deferred_free	drivers/udlfb.c	/^struct dlfb_deferred_free {$/;"	s	file:
+dlfb_deferred_vfree	drivers/udlfb.c	/^static void dlfb_deferred_vfree(struct dlfb_data *dlfb, void *mem)$/;"	f	typeref:typename:void	file:
+dlfb_dpy_deferred_io	drivers/udlfb.c	/^static void dlfb_dpy_deferred_io(struct fb_info *info, struct list_head *pagereflist)$/;"	f	typeref:typename:void	file:
+dlfb_driver	drivers/udlfb.c	/^static struct usb_driver dlfb_driver = {$/;"	v	typeref:struct:usb_driver	file:
+dlfb_dummy_render	drivers/udlfb.c	/^static char *dlfb_dummy_render(char *buf)$/;"	f	typeref:typename:char *	file:
+dlfb_fix	drivers/udlfb.c	/^static const struct fb_fix_screeninfo dlfb_fix = {$/;"	v	typeref:typename:const struct fb_fix_screeninfo	file:
+dlfb_free_urb_list	drivers/udlfb.c	/^static void dlfb_free_urb_list(struct dlfb_data *dlfb)$/;"	f	typeref:typename:void	file:
+dlfb_get_edid	drivers/udlfb.c	/^static int dlfb_get_edid(struct dlfb_data *dlfb, char *edid, int len)$/;"	f	typeref:typename:int	file:
+dlfb_get_urb	drivers/udlfb.c	/^static struct urb *dlfb_get_urb(struct dlfb_data *dlfb)$/;"	f	typeref:struct:urb *	file:
+dlfb_handle_damage	drivers/udlfb.c	/^static int dlfb_handle_damage(struct dlfb_data *dlfb, int x, int y, int width, int height)$/;"	f	typeref:typename:int	file:
+dlfb_init_damage	drivers/udlfb.c	/^static void dlfb_init_damage(struct dlfb_data *dlfb)$/;"	f	typeref:typename:void	file:
+dlfb_is_valid_mode	drivers/udlfb.c	/^static int dlfb_is_valid_mode(struct fb_videomode *mode, struct dlfb_data *dlfb)$/;"	f	typeref:typename:int	file:
+dlfb_lfsr16	drivers/udlfb.c	/^static u16 dlfb_lfsr16(u16 actual_count)$/;"	f	typeref:typename:u16	file:
+dlfb_offload_damage	drivers/udlfb.c	/^static void dlfb_offload_damage(struct dlfb_data *dlfb, int x, int y, int width, int height)$/;"	f	typeref:typename:void	file:
+dlfb_ops	drivers/udlfb.c	/^static const struct fb_ops dlfb_ops = {$/;"	v	typeref:typename:const struct fb_ops	file:
+dlfb_ops_blank	drivers/udlfb.c	/^static int dlfb_ops_blank(int blank_mode, struct fb_info *info)$/;"	f	typeref:typename:int	file:
+dlfb_ops_check_var	drivers/udlfb.c	/^static int dlfb_ops_check_var(struct fb_var_screeninfo *var,$/;"	f	typeref:typename:int	file:
+dlfb_ops_copyarea	drivers/udlfb.c	/^static void dlfb_ops_copyarea(struct fb_info *info,$/;"	f	typeref:typename:void	file:
+dlfb_ops_destroy	drivers/udlfb.c	/^static void dlfb_ops_destroy(struct fb_info *info)$/;"	f	typeref:typename:void	file:
+dlfb_ops_fillrect	drivers/udlfb.c	/^static void dlfb_ops_fillrect(struct fb_info *info,$/;"	f	typeref:typename:void	file:
+dlfb_ops_imageblit	drivers/udlfb.c	/^static void dlfb_ops_imageblit(struct fb_info *info,$/;"	f	typeref:typename:void	file:
+dlfb_ops_ioctl	drivers/udlfb.c	/^static int dlfb_ops_ioctl(struct fb_info *info, unsigned int cmd,$/;"	f	typeref:typename:int	file:
+dlfb_ops_mmap	drivers/udlfb.c	/^static int dlfb_ops_mmap(struct fb_info *info, struct vm_area_struct *vma)$/;"	f	typeref:typename:int	file:
+dlfb_ops_open	drivers/udlfb.c	/^static int dlfb_ops_open(struct fb_info *info, int user)$/;"	f	typeref:typename:int	file:
+dlfb_ops_release	drivers/udlfb.c	/^static int dlfb_ops_release(struct fb_info *info, int user)$/;"	f	typeref:typename:int	file:
+dlfb_ops_set_par	drivers/udlfb.c	/^static int dlfb_ops_set_par(struct fb_info *info)$/;"	f	typeref:typename:int	file:
+dlfb_ops_setcolreg	drivers/udlfb.c	/^dlfb_ops_setcolreg(unsigned regno, unsigned red, unsigned green,$/;"	f	typeref:typename:int	file:
+dlfb_ops_write	drivers/udlfb.c	/^static ssize_t dlfb_ops_write(struct fb_info *info, const char __user *buf,$/;"	f	typeref:typename:ssize_t	file:
+dlfb_parse_vendor_descriptor	drivers/udlfb.c	/^static int dlfb_parse_vendor_descriptor(struct dlfb_data *dlfb,$/;"	f	typeref:typename:int	file:
+dlfb_realloc_framebuffer	drivers/udlfb.c	/^static int dlfb_realloc_framebuffer(struct dlfb_data *dlfb, struct fb_info *info, u32 new_len)$/;"	f	typeref:typename:int	file:
+dlfb_render_hline	drivers/udlfb.c	/^static int dlfb_render_hline(struct dlfb_data *dlfb, struct urb **urb_ptr,$/;"	f	typeref:typename:int	file:
+dlfb_select_std_channel	drivers/udlfb.c	/^static int dlfb_select_std_channel(struct dlfb_data *dlfb)$/;"	f	typeref:typename:int	file:
+dlfb_set_base16bpp	drivers/udlfb.c	/^static char *dlfb_set_base16bpp(char *wrptr, u32 base)$/;"	f	typeref:typename:char *	file:
+dlfb_set_base8bpp	drivers/udlfb.c	/^static char *dlfb_set_base8bpp(char *wrptr, u32 base)$/;"	f	typeref:typename:char *	file:
+dlfb_set_color_depth	drivers/udlfb.c	/^static char *dlfb_set_color_depth(char *buf, u8 selection)$/;"	f	typeref:typename:char *	file:
+dlfb_set_register	drivers/udlfb.c	/^static char *dlfb_set_register(char *buf, u8 reg, u8 val)$/;"	f	typeref:typename:char *	file:
+dlfb_set_register_16	drivers/udlfb.c	/^static char *dlfb_set_register_16(char *wrptr, u8 reg, u16 value)$/;"	f	typeref:typename:char *	file:
+dlfb_set_register_16be	drivers/udlfb.c	/^static char *dlfb_set_register_16be(char *wrptr, u8 reg, u16 value)$/;"	f	typeref:typename:char *	file:
+dlfb_set_register_lfsr16	drivers/udlfb.c	/^static char *dlfb_set_register_lfsr16(char *wrptr, u8 reg, u16 value)$/;"	f	typeref:typename:char *	file:
+dlfb_set_vid_cmds	drivers/udlfb.c	/^static char *dlfb_set_vid_cmds(char *wrptr, struct fb_var_screeninfo *var)$/;"	f	typeref:typename:char *	file:
+dlfb_set_video_mode	drivers/udlfb.c	/^static int dlfb_set_video_mode(struct dlfb_data *dlfb,$/;"	f	typeref:typename:int	file:
+dlfb_setup_modes	drivers/udlfb.c	/^static int dlfb_setup_modes(struct dlfb_data *dlfb,$/;"	f	typeref:typename:int	file:
+dlfb_submit_urb	drivers/udlfb.c	/^static int dlfb_submit_urb(struct dlfb_data *dlfb, struct urb *urb, size_t len)$/;"	f	typeref:typename:int	file:
+dlfb_trim_hline	drivers/udlfb.c	/^static int dlfb_trim_hline(const u8 *bback, const u8 **bfront, int *width_bytes)$/;"	f	typeref:typename:int	file:
+dlfb_urb_completion	drivers/udlfb.c	/^static void dlfb_urb_completion(struct urb *urb)$/;"	f	typeref:typename:void	file:
+dlfb_usb_disconnect	drivers/udlfb.c	/^static void dlfb_usb_disconnect(struct usb_interface *intf)$/;"	f	typeref:typename:void	file:
+dlfb_usb_probe	drivers/udlfb.c	/^static int dlfb_usb_probe(struct usb_interface *intf,$/;"	f	typeref:typename:int	file:
+dlfb_var_color_format	drivers/udlfb.c	/^static void dlfb_var_color_format(struct fb_var_screeninfo *var)$/;"	f	typeref:typename:void	file:
+dlfb_vidreg_lock	drivers/udlfb.c	/^static char *dlfb_vidreg_lock(char *buf)$/;"	f	typeref:typename:char *	file:
+dlfb_vidreg_unlock	drivers/udlfb.c	/^static char *dlfb_vidreg_unlock(char *buf)$/;"	f	typeref:typename:char *	file:
+dloarea	drivers/udlfb.h	/^struct dloarea {$/;"	s
+edid	drivers/udlfb.h	/^	char *edid; \/* null until we read edid from hw or get from sysfs *\/$/;"	m	struct:dlfb_data	typeref:typename:char *
+edid_attr	drivers/udlfb.c	/^static const struct bin_attribute edid_attr = {$/;"	v	typeref:typename:const struct bin_attribute	file:
+edid_show	drivers/udlfb.c	/^static ssize_t edid_show($/;"	f	typeref:typename:ssize_t	file:
+edid_size	drivers/udlfb.h	/^	size_t edid_size;$/;"	m	struct:dlfb_data	typeref:typename:size_t
+edid_store	drivers/udlfb.c	/^static ssize_t edid_store($/;"	f	typeref:typename:ssize_t	file:
+emoticon_exit	drivers/emoticon.c	/^void emoticon_exit(void) {$/;"	f	typeref:typename:void
+emoticon_fops	drivers/emoticon.c	/^struct file_operations emoticon_fops = {$/;"	v	typeref:struct:file_operations
+emoticon_init	drivers/emoticon.c	/^int emoticon_init(void) {$/;"	f	typeref:typename:int
+emoticon_major	drivers/emoticon.c	/^int emoticon_major = 61;$/;"	v	typeref:typename:int
+emoticon_open	drivers/emoticon.c	/^int emoticon_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+emoticon_read	drivers/emoticon.c	/^ssize_t emoticon_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+emoticon_release	drivers/emoticon.c	/^int emoticon_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+emoticon_write	drivers/emoticon.c	/^ssize_t emoticon_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+entry	drivers/udlfb.h	/^	struct list_head entry;$/;"	m	struct:urb_node	typeref:struct:list_head
+err_lock	drivers/usb-skeleton.c	/^	spinlock_t		err_lock;		\/* lock for errors *\/$/;"	m	struct:usb_skel	typeref:typename:spinlock_t	file:
+errors	drivers/usb-skeleton.c	/^	int			errors;			\/* the last request tanked *\/$/;"	m	struct:usb_skel	typeref:typename:int	file:
+fb_count	drivers/udlfb.h	/^	int fb_count;$/;"	m	struct:dlfb_data	typeref:typename:int
+fb_defio	drivers/udlfb.c	/^static bool fb_defio = true;  \/* Detect mmap writes using page faults *\/$/;"	v	typeref:typename:bool	file:
+fb_device_attrs	drivers/udlfb.c	/^static const struct device_attribute fb_device_attrs[] = {$/;"	v	typeref:typename:const struct device_attribute[]	file:
+glBufferManager	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PDmaBufMgr_t glBufferManager = {{0}, 0, 0, 0, 0, 0};$/;"	v	typeref:typename:CyU3PDmaBufMgr_t
+glChHandleSlFifoPtoU	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyU3PDmaChannel glChHandleSlFifoPtoU;   \/* DMA Channel handle for P2U transfer. *\/$/;"	v	typeref:typename:CyU3PDmaChannel
+glChHandleSlFifoUtoP	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyU3PDmaChannel glChHandleSlFifoUtoP;   \/* DMA Channel handle for U2P transfer. *\/$/;"	v	typeref:typename:CyU3PDmaChannel
+glDMARxCount	firmware/SlaveFifoSync/cyfxslfifosync.c	/^uint32_t glDMARxCount = 0;               \/* Counter to track the number of buffers received fro/;"	v	typeref:typename:uint32_t
+glDMATxCount	firmware/SlaveFifoSync/cyfxslfifosync.c	/^uint32_t glDMATxCount = 0;               \/* Counter to track the number of buffers sent to USB./;"	v	typeref:typename:uint32_t
+glIsApplnActive	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyBool_t glIsApplnActive = CyFalse;      \/* Whether the loopback application is active or not. /;"	v	typeref:typename:CyBool_t
+glMemBytePool	firmware/SlaveFifoSync/cyfxtx.c	/^CyU3PBytePool    glMemBytePool;$/;"	v	typeref:typename:CyU3PBytePool
+glMemPoolInit	firmware/SlaveFifoSync/cyfxtx.c	/^CyBool_t         glMemPoolInit = CyFalse;$/;"	v	typeref:typename:CyBool_t
+gpif_error_cb	firmware/SlaveFifoSync/cyfxslfifosync.c	/^gpif_error_cb(CyU3PPibIntrType cbType, uint16_t cbArg)$/;"	f	typeref:typename:void
+h	drivers/udlfb.h	/^	int w, h;$/;"	m	struct:dloarea	typeref:typename:int
+hello_exit	drivers/hello.c	/^static void hello_exit(void) {$/;"	f	typeref:typename:void	file:
+hello_init	drivers/hello.c	/^static int hello_init(void) {$/;"	f	typeref:typename:int	file:
+id_table	drivers/udlfb.c	/^static const struct usb_device_id id_table[] = {$/;"	v	typeref:typename:const struct usb_device_id[]	file:
+info	drivers/udlfb.h	/^	struct fb_info *info;$/;"	m	struct:dlfb_data	typeref:struct:fb_info *
+interface	drivers/usb-skeleton.c	/^	struct usb_interface	*interface;		\/* the interface for this device *\/$/;"	m	struct:usb_skel	typeref:struct:usb_interface *	file:
+io_mutex	drivers/usb-skeleton.c	/^	struct mutex		io_mutex;		\/* synchronize I\/O with disconnect *\/$/;"	m	struct:usb_skel	typeref:struct:mutex	file:
+jiffies_exit	drivers/jiffies.c	/^void jiffies_exit(void) {$/;"	f	typeref:typename:void
+jiffies_fops	drivers/jiffies.c	/^struct file_operations jiffies_fops = {$/;"	v	typeref:struct:file_operations
+jiffies_init	drivers/jiffies.c	/^int jiffies_init(void) {$/;"	f	typeref:typename:int
+jiffies_major	drivers/jiffies.c	/^int jiffies_major = 60;$/;"	v	typeref:typename:int
+jiffies_open	drivers/jiffies.c	/^int jiffies_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+jiffies_read	drivers/jiffies.c	/^ssize_t jiffies_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+jiffies_release	drivers/jiffies.c	/^int jiffies_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_exit	drivers/klog.c	/^void klog_exit(void) {$/;"	f	typeref:typename:void
+klog_fops	drivers/klog.c	/^struct file_operations klog_fops = {$/;"	v	typeref:struct:file_operations
+klog_init	drivers/klog.c	/^int klog_init(void) {$/;"	f	typeref:typename:int
+klog_major	drivers/klog.c	/^int klog_major = 62;$/;"	v	typeref:typename:int
+klog_open	drivers/klog.c	/^int klog_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_release	drivers/klog.c	/^int klog_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+klog_write	drivers/klog.c	/^ssize_t klog_write(struct file *filp, const char *buf, $/;"	f	typeref:typename:ssize_t
+kref	drivers/usb-skeleton.c	/^	struct kref		kref;$/;"	m	struct:usb_skel	typeref:struct:kref	file:
+limit_sem	drivers/udlfb.h	/^	struct semaphore limit_sem;$/;"	m	struct:urb_list	typeref:struct:semaphore
+limit_sem	drivers/usb-skeleton.c	/^	struct semaphore	limit_sem;		\/* limiting the number of writes in progress *\/$/;"	m	struct:usb_skel	typeref:struct:semaphore	file:
+list	drivers/udlfb.c	/^	struct list_head list;$/;"	m	struct:dlfb_deferred_free	typeref:struct:list_head	file:
+list	drivers/udlfb.h	/^	struct list_head list;$/;"	m	struct:urb_list	typeref:struct:list_head
+lock	drivers/udlfb.h	/^	spinlock_t lock;$/;"	m	struct:urb_list	typeref:typename:spinlock_t
+lost_pixels	drivers/udlfb.h	/^	atomic_t lost_pixels; \/* 1 = a render op failed. Need screen refresh *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+main	WriteToUSB.c	/^int main() {$/;"	f	typeref:typename:int
+main	drivers/devdriver_demo.c	/^int main()$/;"	f	typeref:typename:int
+main	drivers/emoticon_demo.c	/^int main()$/;"	f	typeref:typename:int
+main	drivers/jiffies_demo.c	/^int main()$/;"	f	typeref:typename:int
+main	firmware/SlaveFifoSync/cyfxslfifosync.c	/^main (void)$/;"	f	typeref:typename:int
+mem	drivers/udlfb.c	/^	void *mem;$/;"	m	struct:dlfb_deferred_free	typeref:typename:void *	file:
+memory_buffer	drivers/memory.c	/^char *memory_buffer;$/;"	v	typeref:typename:char *
+memory_exit	drivers/memory.c	/^void memory_exit(void) {$/;"	f	typeref:typename:void
+memory_fops	drivers/memory.c	/^struct file_operations memory_fops = {$/;"	v	typeref:struct:file_operations
+memory_init	drivers/memory.c	/^int memory_init(void) {$/;"	f	typeref:typename:int
+memory_major	drivers/memory.c	/^int memory_major = 60;$/;"	v	typeref:typename:int
+memory_open	drivers/memory.c	/^int memory_open(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+memory_read	drivers/memory.c	/^ssize_t memory_read(struct file *filp, char *buf, $/;"	f	typeref:typename:ssize_t
+memory_release	drivers/memory.c	/^int memory_release(struct inode *inode, struct file *filp) {$/;"	f	typeref:typename:int
+memory_write	drivers/memory.c	/^ssize_t memory_write( struct file *filp, const char *buf,$/;"	f	typeref:typename:ssize_t
+metrics_bytes_identical_show	drivers/udlfb.c	/^static ssize_t metrics_bytes_identical_show(struct device *fbdev,$/;"	f	typeref:typename:ssize_t	file:
+metrics_bytes_rendered_show	drivers/udlfb.c	/^static ssize_t metrics_bytes_rendered_show(struct device *fbdev,$/;"	f	typeref:typename:ssize_t	file:
+metrics_bytes_sent_show	drivers/udlfb.c	/^static ssize_t metrics_bytes_sent_show(struct device *fbdev,$/;"	f	typeref:typename:ssize_t	file:
+metrics_cpu_kcycles_used_show	drivers/udlfb.c	/^static ssize_t metrics_cpu_kcycles_used_show(struct device *fbdev,$/;"	f	typeref:typename:ssize_t	file:
+metrics_reset_store	drivers/udlfb.c	/^static ssize_t metrics_reset_store(struct device *fbdev,$/;"	f	typeref:typename:ssize_t	file:
+modules	drivers/Makefile	/^modules:$/;"	t
+obj-m	drivers/Makefile	/^obj-m = hello.o usb-skeleton.o$/;"	m
+ongoing_read	drivers/usb-skeleton.c	/^	bool			ongoing_read;		\/* a read is going on *\/$/;"	m	struct:usb_skel	typeref:typename:bool	file:
+ops	drivers/udlfb.h	/^	struct fb_ops ops;$/;"	m	struct:dlfb_data	typeref:struct:fb_ops
+pixel_limit	drivers/udlfb.c	/^static int pixel_limit; \/* Optionally force a pixel resolution limit *\/$/;"	v	typeref:typename:int	file:
+post-build	firmware/SlaveFifoSync/Debug/makefile	/^post-build:$/;"	t
+post-build	firmware/SlaveFifoSync/Release/makefile	/^post-build:$/;"	t
+pseudo_palette	drivers/udlfb.h	/^	u32 pseudo_palette[256];$/;"	m	struct:dlfb_data	typeref:typename:u32[256]
+render_mutex	drivers/udlfb.h	/^	struct mutex render_mutex;$/;"	m	struct:dlfb_data	typeref:struct:mutex
+secondary-outputs	firmware/SlaveFifoSync/Debug/makefile	/^secondary-outputs: $(SECONDARY_LIST) $(SECONDARY_SIZE)$/;"	t
+secondary-outputs	firmware/SlaveFifoSync/Release/makefile	/^secondary-outputs: $(SECONDARY_LIST) $(SECONDARY_SIZE)$/;"	t
+shadow	drivers/udlfb.c	/^static bool shadow = true; \/* Optionally disable shadow framebuffer *\/$/;"	v	typeref:typename:bool	file:
+size	drivers/udlfb.h	/^	size_t size;$/;"	m	struct:urb_list	typeref:typename:size_t
+skel_class	drivers/usb-skeleton.c	/^static struct usb_class_driver skel_class = {$/;"	v	typeref:struct:usb_class_driver	file:
+skel_delete	drivers/usb-skeleton.c	/^static void skel_delete(struct kref *kref)$/;"	f	typeref:typename:void	file:
+skel_disconnect	drivers/usb-skeleton.c	/^static void skel_disconnect(struct usb_interface *interface)$/;"	f	typeref:typename:void	file:
+skel_do_read_io	drivers/usb-skeleton.c	/^static int skel_do_read_io(struct usb_skel *dev, size_t count)$/;"	f	typeref:typename:int	file:
+skel_draw_down	drivers/usb-skeleton.c	/^static void skel_draw_down(struct usb_skel *dev)$/;"	f	typeref:typename:void	file:
+skel_driver	drivers/usb-skeleton.c	/^static struct usb_driver skel_driver = {$/;"	v	typeref:struct:usb_driver	file:
+skel_driver	drivers/usb-skeleton.c	/^static struct usb_driver skel_driver;$/;"	v	typeref:struct:usb_driver	file:
+skel_flush	drivers/usb-skeleton.c	/^static int skel_flush(struct file *file, fl_owner_t id)$/;"	f	typeref:typename:int	file:
+skel_fops	drivers/usb-skeleton.c	/^static const struct file_operations skel_fops = {$/;"	v	typeref:typename:const struct file_operations	file:
+skel_open	drivers/usb-skeleton.c	/^static int skel_open(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+skel_post_reset	drivers/usb-skeleton.c	/^static int skel_post_reset(struct usb_interface *intf)$/;"	f	typeref:typename:int	file:
+skel_pre_reset	drivers/usb-skeleton.c	/^static int skel_pre_reset(struct usb_interface *intf)$/;"	f	typeref:typename:int	file:
+skel_probe	drivers/usb-skeleton.c	/^static int skel_probe(struct usb_interface *interface,$/;"	f	typeref:typename:int	file:
+skel_read	drivers/usb-skeleton.c	/^static ssize_t skel_read(struct file *file, char *buffer, size_t count,$/;"	f	typeref:typename:ssize_t	file:
+skel_read_bulk_callback	drivers/usb-skeleton.c	/^static void skel_read_bulk_callback(struct urb *urb)$/;"	f	typeref:typename:void	file:
+skel_release	drivers/usb-skeleton.c	/^static int skel_release(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+skel_resume	drivers/usb-skeleton.c	/^static int skel_resume(struct usb_interface *intf)$/;"	f	typeref:typename:int	file:
+skel_suspend	drivers/usb-skeleton.c	/^static int skel_suspend(struct usb_interface *intf, pm_message_t message)$/;"	f	typeref:typename:int	file:
+skel_table	drivers/usb-skeleton.c	/^static const struct usb_device_id skel_table[] = {$/;"	v	typeref:typename:const struct usb_device_id[]	file:
+skel_write	drivers/usb-skeleton.c	/^static ssize_t skel_write(struct file *file, const char *user_buffer,$/;"	f	typeref:typename:ssize_t	file:
+skel_write_bulk_callback	drivers/usb-skeleton.c	/^static void skel_write_bulk_callback(struct urb *urb)$/;"	f	typeref:typename:void	file:
+sku_pixel_limit	drivers/udlfb.h	/^	int sku_pixel_limit;$/;"	m	struct:dlfb_data	typeref:typename:int
+slFifoAppThread	firmware/SlaveFifoSync/cyfxslfifosync.c	/^CyU3PThread slFifoAppThread;	        \/* Slave FIFO application thread structure *\/$/;"	v	typeref:typename:CyU3PThread
+submitted	drivers/usb-skeleton.c	/^	struct usb_anchor	submitted;		\/* in case we need to retract our submissions *\/$/;"	m	struct:usb_skel	typeref:struct:usb_anchor	file:
+to_skel_dev	drivers/usb-skeleton.c	/^#define to_skel_dev(/;"	d	file:
+tx_application_define	firmware/SlaveFifoSync/cyfxtx.c	/^tx_application_define ($/;"	f	typeref:typename:void
+udev	drivers/udlfb.h	/^	struct usb_device *udev;$/;"	m	struct:dlfb_data	typeref:struct:usb_device *
+udev	drivers/usb-skeleton.c	/^	struct usb_device	*udev;			\/* the usb device for this device *\/$/;"	m	struct:usb_skel	typeref:struct:usb_device *	file:
+udlfb_info_flags	drivers/udlfb.c	/^static const u32 udlfb_info_flags = FBINFO_DEFAULT | FBINFO_READS_FAST |$/;"	v	typeref:typename:const u32	file:
+urb	drivers/udlfb.h	/^	struct urb *urb;$/;"	m	struct:urb_node	typeref:struct:urb *
+urb_list	drivers/udlfb.h	/^struct urb_list {$/;"	s
+urb_node	drivers/udlfb.h	/^struct urb_node {$/;"	s
+urbs	drivers/udlfb.h	/^	struct urb_list urbs;$/;"	m	struct:dlfb_data	typeref:struct:urb_list
+usb_active	drivers/udlfb.h	/^	atomic_t usb_active; \/* 0 = update virtual buffer, but no usb traffic *\/$/;"	m	struct:dlfb_data	typeref:typename:atomic_t
+usb_skel	drivers/usb-skeleton.c	/^struct usb_skel {$/;"	s	file:
+virtualized	drivers/udlfb.h	/^	bool virtualized; \/* true when physical usb device not present *\/$/;"	m	struct:dlfb_data	typeref:typename:bool
+w	drivers/udlfb.h	/^	int w, h;$/;"	m	struct:dloarea	typeref:typename:int
+x	drivers/udlfb.h	/^	int x, y;$/;"	m	struct:dloarea	typeref:typename:int
+x2	drivers/udlfb.h	/^	int x2, y2;$/;"	m	struct:dloarea	typeref:typename:int
+y	drivers/udlfb.h	/^	int x, y;$/;"	m	struct:dloarea	typeref:typename:int
+y2	drivers/udlfb.h	/^	int x2, y2;$/;"	m	struct:dloarea	typeref:typename:int
