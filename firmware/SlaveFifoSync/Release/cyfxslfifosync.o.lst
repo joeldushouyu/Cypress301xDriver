@@ -374,7 +374,7 @@
  389 0420 FCFFFFEA 		b	.L80
  390              	.L79:
  391 0424 28319FE5 		ldr	r3, .L90+12
- 392 0428 0552A0E1 		mov	r5, r5, asl #4
+ 392 0428 8550A0E1 		mov	r5, r5, asl #1
  393 042c B031CDE1 		strh	r3, [sp, #16]	@ movhi
  394 0430 20319FE5 		ldr	r3, .L90+16
  395 0434 BC50CDE1 		strh	r5, [sp, #12]	@ movhi
@@ -1531,58 +1531,58 @@
  1461 000d 000000   		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
 DEFINED SYMBOLS
                             *ABS*:00000000 cyfxslfifosync.c
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:14     .text:00000000 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:17     .text:00000000 CyFxApplnLPMRqtCB
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:27     .text:00000008 CyFxSlFifoApplnUSBSetupCB
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:108    .text:00000118 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:14     .text:00000000 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:17     .text:00000000 CyFxApplnLPMRqtCB
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:27     .text:00000008 CyFxSlFifoApplnUSBSetupCB
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:108    .text:00000118 $d
                             *COM*:000000ac glChHandleSlFifoUtoP
                             *COM*:000000ac glChHandleSlFifoPtoU
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:112    .text:00000124 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:115    .text:00000124 CyFxSlFifoUtoPDmaCallback
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:138    .text:00000164 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:141    .text:0000016c $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:144    .text:0000016c CyFxSlFifoPtoUDmaCallback
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:167    .text:000001ac $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:170    .text:000001b4 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:173    .text:000001b4 gpif_error_cb
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:186    .text:000001d4 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:195    .text:000001f4 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:225    .text:0000023c $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:235    .text:00000260 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:238    .text:00000260 CyFxAppErrorHandler
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:251    .text:00000270 CyFxSlFifoApplnDebugInit
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:311    .text:00000324 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:313    .text:00000328 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:316    .text:00000328 CyFxSlFifoApplnStart
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:474    .text:00000548 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:487    .text:00000578 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:490    .text:00000578 CyFxSlFifoApplnStop
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:542    .text:0000061c $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:547    .text:0000062c $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:550    .text:0000062c CyFxSlFifoApplnUSBEventCB
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:581    .text:00000684 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:583    .text:00000688 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:586    .text:00000688 CyFxSlFifoApplnInit
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:865    .text:00000a40 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:896    .text:00000ab8 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:899    .text:00000ab8 SlFifoAppThread_Entry
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:913    .text:00000ad0 CyFxApplicationDefine
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:947    .text:00000b34 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:112    .text:00000124 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:115    .text:00000124 CyFxSlFifoUtoPDmaCallback
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:138    .text:00000164 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:141    .text:0000016c $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:144    .text:0000016c CyFxSlFifoPtoUDmaCallback
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:167    .text:000001ac $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:170    .text:000001b4 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:173    .text:000001b4 gpif_error_cb
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:186    .text:000001d4 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:195    .text:000001f4 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:225    .text:0000023c $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:235    .text:00000260 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:238    .text:00000260 CyFxAppErrorHandler
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:251    .text:00000270 CyFxSlFifoApplnDebugInit
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:311    .text:00000324 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:313    .text:00000328 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:316    .text:00000328 CyFxSlFifoApplnStart
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:474    .text:00000548 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:487    .text:00000578 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:490    .text:00000578 CyFxSlFifoApplnStop
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:542    .text:0000061c $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:547    .text:0000062c $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:550    .text:0000062c CyFxSlFifoApplnUSBEventCB
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:581    .text:00000684 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:583    .text:00000688 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:586    .text:00000688 CyFxSlFifoApplnInit
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:865    .text:00000a40 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:896    .text:00000ab8 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:899    .text:00000ab8 SlFifoAppThread_Entry
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:913    .text:00000ad0 CyFxApplicationDefine
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:947    .text:00000b34 $d
                             *COM*:000000a8 slFifoAppThread
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:952    .text.startup:00000000 $a
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:955    .text.startup:00000000 main
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1459   .bss:0000000c burstLength
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1447   .bss:00000000 glIsApplnActive
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1455   .bss:00000008 glDMATxCount
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1451   .bss:00000004 glDMARxCount
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1021   .rodata:00000000 CyFxGpifConfig
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1101   .data:00000000 CyFxGpifRegValue
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1180   .data:00000130 CyFxGpifWavedataPosition
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1383   .data:000001f8 CyFxGpifWavedata
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1434   .data:000002b8 CyFxGpifTransition
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1017   .rodata:00000000 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1098   .data:00000000 $d
-C:\Users\wen\AppData\Local\Temp\ccuyZoV7.s:1443   .bss:00000000 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:952    .text.startup:00000000 $a
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:955    .text.startup:00000000 main
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1459   .bss:0000000c burstLength
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1447   .bss:00000000 glIsApplnActive
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1455   .bss:00000008 glDMATxCount
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1451   .bss:00000004 glDMARxCount
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1021   .rodata:00000000 CyFxGpifConfig
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1101   .data:00000000 CyFxGpifRegValue
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1180   .data:00000130 CyFxGpifWavedataPosition
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1383   .data:000001f8 CyFxGpifWavedata
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1434   .data:000002b8 CyFxGpifTransition
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1017   .rodata:00000000 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1098   .data:00000000 $d
+C:\Users\User\AppData\Local\Temp\cc4AnLUm.s:1443   .bss:00000000 $d
 
 UNDEFINED SYMBOLS
 CyU3PUsbAckSetup

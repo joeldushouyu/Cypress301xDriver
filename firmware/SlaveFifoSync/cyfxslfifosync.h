@@ -53,7 +53,7 @@
 
 #ifdef STREAM_IN_OUT
 #define BURST_LEN 16
-#define DMA_BUF_SIZE						 (16)
+#define DMA_BUF_SIZE						 (2)
 /* Slave FIFO P_2_U channel buffer count */
 #define CY_FX_SLFIFO_DMA_BUF_COUNT_P_2_U      (8)
 /* Slave FIFO U_2_P channel buffer count */
