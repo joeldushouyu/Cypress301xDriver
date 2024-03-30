@@ -75,7 +75,7 @@ int main()
         res.tv_sec = 0;
         res.tv_nsec = 868050;
         char f = 0;
-       dataOut = counter;
+        dataOut = counter;
         for (int i = 0; i < DATA_SIZE; i ++)
         {
             // unsigned int *p = (unsigned int *)(data + i);
@@ -114,7 +114,7 @@ int main()
         {
             printf("Data sent successfully, actual sent is %d\n", actual_sent);
             counter++;
-            if(counter==4){break;}
+            if(counter==8){break;}
         }
         else
         {
