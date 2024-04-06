@@ -7,7 +7,7 @@
 #define VENDOR_ID 0x04b4    // Replace with the actual vendor ID of your USB device
 #define PRODUCT_ID 0x00f1   // Replace with the actual product ID of your USB device
 #define ENDPOINT_OUT 0x01   // Replace with the actual OUT endpoint address for bulk transfer
-#define DATA_SIZE  2048*1  // 16384 *100  // 1024*4*4*2// 1024*4 *4   *2// Define the size of the data buffer
+#define DATA_SIZE  4*(480*640) // 16384 *100  // 1024*4*4*2// 1024*4 *4   *2// Define the size of the data buffer
 
 libusb_device_handle *handle = NULL;
 
