@@ -103,43 +103,41 @@ int main()
 
     // now, create a list of transfers to point to them
     USBImageTransfer bulkTransferList;
+    unsigned int imageSize = (unsigned int )(CYPRESS_BULK_SIZE) * (unsigned int)(TOTAL_BULK_ARRAY);
 
-    for (unsigned int i = 0; i < TOTAL_BULK_ARRAY; i++)
+
+    int totalFrameSize = 20;
+    for (unsigned int i = 0; i < totalFrameSize; i++)
     {
-        bulkTransferList.transfer_buf[i] = calloc(CYPRESS_BULK_SIZE, 1);
+        bulkTransferList.transfer_buf[i] = calloc(imageSize, 1);
         bulkTransferList.transfers[i] = libusb_alloc_transfer(0);
     }
 
-    // initialize the image
-    unsigned long long  imageCharSize = (CYPRESS_BULK_SIZE) *  (TOTAL_BULK_ARRAY);
-    unsigned long long transferIndex;
-    unsigned long long transferBufIndex;
-    unsigned long long pixel_count = 0;
-    for (unsigned long long  i = 0; i < imageCharSize; i += 4,pixel_count++)
-    {
-        transferIndex = i / (unsigned long long  )(CYPRESS_BULK_SIZE);
-        transferBufIndex = ( i ) % (unsigned long long ) (CYPRESS_BULK_SIZE);
+    // // initialize the image
+    for(unsigned int i = 0; i < totalFrameSize; i++){
+        unsigned int pixelCount = 0;
+        for (unsigned int bufIndex = 0; bufIndex< imageSize; bufIndex+=4, pixelCount++){
+            int dataToSend;
+            if(pixelCount < (640*480)/2){
+                dataToSend = RGBto16BIT(255,0,0);
+            }else{
+                dataToSend = RGBto16BIT(0,0,255);
+            }
 
-        int dataToSend;
-        
-        if (pixel_count <(640*480)/2)
-        {
-            dataToSend =RGBto16BIT(255, 0, 0);
+            unsigned char *buf = bulkTransferList.transfer_buf[i];
+            buf[bufIndex + 2] = (dataToSend >> 8) & 0xFF;
+            buf[bufIndex + 3] = (dataToSend ) & 0xFF;
         }
-        else
-        {
-            dataToSend = RGBto16BIT(0, 0, 255);
-        }
-
-        unsigned char *buf = bulkTransferList.transfer_buf[transferIndex];
-        buf[transferBufIndex + 2] = (dataToSend >> 8) & 0xFF;
-        buf[transferBufIndex + 3] = (dataToSend ) & 0xFF;
     }
-    for (unsigned int i = 0; i < TOTAL_BULK_ARRAY; i++)
+
+    
+    for (unsigned int i = 0; i < totalFrameSize; i++)
     {
 
         // start sending
-        libusb_fill_bulk_transfer(bulkTransferList.transfers[i], handle, ENDPOINT_OUT, bulkTransferList.transfer_buf[i], CYPRESS_BULK_SIZE, read_callback, NULL, 5000);
+        libusb_fill_bulk_transfer(bulkTransferList.transfers[i], handle, 
+        ENDPOINT_OUT, bulkTransferList.transfer_buf[i], imageSize, 
+        read_callback, NULL, 5000);
         libusb_submit_transfer(bulkTransferList.transfers[i]);
     }
 
