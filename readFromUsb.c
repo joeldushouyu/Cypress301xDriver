@@ -5,7 +5,7 @@
 #define VENDOR_ID 0x04b4  // Replace with the actual vendor ID of your USB device
 #define PRODUCT_ID 0x00f1 // Replace with the actual product ID of your USB device
 #define ENDPOINT_IN 0x81 // Replace with the actual OUT endpoint address for bulk transfer
-#define DATA_SIZE 2048//1024*4 *4// Define the size of the data buffer
+#define DATA_SIZE 16384//1024*4 *4// Define the size of the data buffer
 #define FILENAME "received_data.bin" // Define the filename for the local file
 
 int main() {
