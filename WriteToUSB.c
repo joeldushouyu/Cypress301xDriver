@@ -62,49 +62,26 @@ int main()
 
     // Data to send
     unsigned char data[DATA_SIZE];
-    // Fill data buffer with desired data
-    // For example:
     unsigned char counter = 0;
-    unsigned char dataOut = 0;
-    struct timespec res;
-    res.tv_sec = 0;
-    res.tv_nsec = 86805;
 
     while (1)
     {
-        res.tv_sec = 0;
-        res.tv_nsec = 868050;
-        char f = 0;
-        dataOut = counter;
-        for (int i = 0; i < DATA_SIZE; i ++)
-        {
-            // unsigned int *p = (unsigned int *)(data + i);
-            // *p = counter + i;
-            // if(i%(512*4) ==0){
-            //     dataOut++;
-            // }
-            data[i] = dataOut;
-            dataOut++;
-            
-            //  if (i < 1024 * 4 * 4)
-            //  {
-            //      data[i] = counter; // indicate first page
-            //  }
-            //  else
-            //  {
-            //      data[i] = counter;
-            //  }
-            //  if (f == 0)
-            //  {
-            //      data[i] = 0x0;
-            //      f = 1;
-            //  }
-            //  else{
-            //      data[i] = 0x0;
-            //      f = 0;
-            //  }
-
-            // data[i] = 0xff;
+        for (unsigned int y = 0; y < 480; y++) {
+            for (unsigned int x = 0; x < 640; x++) {
+                if (x < 320) {
+                    // Set the left half of the screen to red
+                    data[(y * 640 + x) * 4] = 0xFF;     // Red
+                    data[(y * 640 + x) * 4 + 1] = 0x00; // Green
+                    data[(y * 640 + x) * 4 + 2] = 0x00; // Blue
+                    data[(y * 640 + x) * 4 + 3] = 0x00; // Alpha
+                } else {
+                    // Set the right half of the screen to blue
+                    data[(y * 640 + x) * 4] = 0x00;     // Red
+                    data[(y * 640 + x) * 4 + 1] = 0x00; // Green
+                    data[(y * 640 + x) * 4 + 2] = 0xFF; // Blue
+                    data[(y * 640 + x) * 4 + 3] = 0xFF; // Alpha
+                }
+            }
         }
 
         // Send data
@@ -114,14 +91,12 @@ int main()
         {
             printf("Data sent successfully, actual sent is %d\n", actual_sent);
             counter++;
-            if(counter==8){break;}
+            //if(counter==12){break;}
         }
         else
         {
             fprintf(stderr, "Error sending data: %s\n", libusb_error_name(r));
         }
-
-        clock_nanosleep(CLOCK_MONOTONIC, 0, &res, NULL);
     }
 
     // We never reach this point because of the infinite loop, Ctrl+C will trigger the signal handler
